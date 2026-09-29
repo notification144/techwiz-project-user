@@ -786,22 +786,7 @@
             --shadow: rgba(0, 0, 0, 0.28);
         }
 
-        :root[data-theme="light"] {
-            color-scheme: light;
-            --page-bg: #f4f7fb;
-            --panel-bg: #ffffff;
-            --soft-panel: #edf4ff;
-            --card-bg: #ffffff;
-            --card-border: rgba(15, 23, 42, 0.08);
-            --text: #0f172a;
-            --text-strong: #0f172a;
-            --muted: #475569;
-            --link: #2563eb;
-            --track-bg: rgba(255, 255, 255, 0.86);
-            --track-border: rgba(148, 163, 184, 0.32);
-            --toggle-active: #3B82F6;
-            --shadow: rgba(15, 23, 42, 0.10);
-        }
+       
 
         body {
             background: var(--page-bg) !important;
@@ -809,62 +794,7 @@
             transition: background 0.2s ease, color 0.2s ease;
         }
 
-        body[data-theme="light"] .navbar,
-        body[data-theme="light"] .top-nav,
-        body[data-theme="light"] .glass-card,
-        body[data-theme="light"] .card,
-        body[data-theme="light"] .panel,
-        body[data-theme="light"] .feature-card,
-        body[data-theme="light"] .summary-card,
-        body[data-theme="light"] .stat-card,
-        body[data-theme="light"] .input-field,
-        body[data-theme="light"] .input-dark,
-        body[data-theme="light"] .sidebar,
-        body[data-theme="light"] .mobile-menu,
-        body[data-theme="light"] .setting-row,
-        body[data-theme="light"] .table-card,
-        body[data-theme="light"] .topbar {
-            background: var(--panel-bg) !important;
-            border-color: var(--card-border) !important;
-            box-shadow: 0 18px 40px var(--shadow) !important;
-        }
-
-        body[data-theme="light"] .text-slate-400,
-        body[data-theme="light"] .text-slate-500,
-        body[data-theme="light"] .text-slate-300,
-        body[data-theme="light"] .text-slate-200,
-        body[data-theme="light"] .text-slate-600,
-        body[data-theme="light"] .text-gray-400,
-        body[data-theme="light"] .muted,
-        body[data-theme="light"] .text-slate-700 {
-            color: var(--muted) !important;
-        }
-
-        body[data-theme="light"] .text-white,
-        body[data-theme="light"] h1,
-        body[data-theme="light"] h2,
-        body[data-theme="light"] h3,
-        body[data-theme="light"] h4,
-        body[data-theme="light"] h5,
-        body[data-theme="light"] h6,
-        body[data-theme="light"] .font-bold,
-        body[data-theme="light"] .text-slate-100 {
-            color: var(--text-strong) !important;
-        }
-
-        body[data-theme="light"] .nav-link,
-        body[data-theme="light"] .menu-link,
-        body[data-theme="light"] a,
-        body[data-theme="light"] .text-slate-300,
-        body[data-theme="light"] .text-slate-200 {
-            color: var(--text) !important;
-        }
-
-        body[data-theme="light"] .theme-switcher {
-            background: var(--track-bg);
-            border-color: var(--track-border);
-        }
-
+        
         .theme-switcher {
             position: fixed;
             top: 18px;
